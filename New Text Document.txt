@@ -1,0 +1,44 @@
+    {
+        "id": 5,
+        "name": "mekaniky",
+        "phone": 1234567890,
+        "rating": 4.5,
+        "location": "Service center location",
+        "description": "Service center description",
+        "image": null,
+        "price": 100,
+        "created_at": "2024-03-22T01:40:26.000000Z",
+        "updated_at": "2024-03-22T01:40:26.000000Z",
+        "user_id": 1,
+        "services": [
+            {
+                "service_name": "tire",
+                "service_details": "ads",
+                "pivot": {
+                    "service_center_id": 5,
+                    "service_id": 1
+                }
+            }
+        ],
+        "cars": [
+            {
+                "car_name": "BMW",
+                "pivot": {
+                    "service_center_id": 5,
+                    "car_id": 1
+                }
+            }
+        ],
+        "days": [
+            {
+                "day": "sunday",
+                "start_hour": "09:00:00",
+                "end_hour": "17:00:00",
+            },
+            {
+                "day": "monday",
+                "start_hour": "09:00:00",
+                "end_hour": "17:00:00",
+            }
+        ]
+    },
